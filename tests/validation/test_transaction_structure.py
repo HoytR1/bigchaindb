@@ -13,6 +13,8 @@ from bigchaindb.common.exceptions import (AmountError, InvalidHash,
 from bigchaindb.models import Transaction
 
 
+pytestmark = pytest.mark.tendermint
+
 ################################################################################
 # Helper functions
 
